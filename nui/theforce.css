@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'bahnschrift';
+    src: url('fontes/bahnschrift.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    z-index: -200;
+}
+
+.hud {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#car {
+    position: absolute;
+    width: 156px;
+    height: 88px;
+    right: 1460px;
+    bottom: 39px;
+}
+
+.b2 {
+    position: absolute;
+    width: 68px;
+    height: 70px;
+    bottom: 50px;
+    left: 0px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ccinto {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cintoon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 5px;
+    left: 5px;
+    background: url(imagens/cintoon.png) no-repeat;
+    -webkit-animation: fadeLoop 1s step-start infinite !important;
+    animation: fadeLoop 1s step-start infinite !important;
+}
+
+.cintooff {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 5px;
+    left: 5px;
+    background: url(imagens/cintooff.png) no-repeat;
+    -webkit-animation: fadeLoop 1s step-start infinite !important;
+    animation: fadeLoop 1s step-start infinite !important;
+}
